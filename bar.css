@@ -1,78 +1,18 @@
 .bar { 
-	height: 20px;  /* Can be anything */
-	position: relative;
-
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-
-	text-align: center;
-
-	border-radius: 5px;
-	padding: 0px;
-	margin: 10px;
+    height: 18px;  /* Can be anything */
+    border: 1px solid #aaa;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0; margin: 8px;
+    overflow: hidden;
 }
 
-.bar > span {
-	display: block;
-	height: 100%;
-	overflow: hidden;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 3px;
+.bar div {height: 100%;}
 
-	background-color: black;
-
-	text-align: center;
-	overflow: hidden;
-}
-
-.bar .red {
-	background-color: #d43f3a;
-}
-
-.bar .orange{
-	background-color: #eea236;
-}
-
-.bar .yellow {
-	background-color: #f0f0a3;
-}
-
-.bar .green {
-	background-color: #4cae4c;
-}
-
-.bar .blue {
-	background-color: #357ebd;
-}
-
-.bar .gray {
-	background-color: gray;
-}
-
-.red > span {
-	background-color: #d43f3a;
-}
-
-.orange > span {
-	background-color: #eea236;
-}
-
-.yellow > span {
-	background-color: #f0f0a3;
-}
-
-.green > span {
-	background-color: #4cae4c;
-}
-
-.blue > span {
-	background-color: #357ebd;
-}
-
-.gray > span {
-	background-color: gray;
-}
+.bar.red div {background: #d43f3a;}
+.bar.orange div {background: #eea236;}
+.bar.yellow div {background: #f0f0a3;}
+.bar.green div {background: #4cae4c;}
+.bar.blue div {background: #357ebd;}
+.bar.gray div {background: gray;}
