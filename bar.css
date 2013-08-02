@@ -1,0 +1,50 @@
+.bar { 
+	height: 20px;  /* Can be anything */
+	position: relative;
+	/*background: #606060;*/
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 0px;
+	margin: 3px;
+}
+
+.bar > span {
+	display: block;
+	height: 100%;
+	overflow: hidden;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 3px;
+	background-color: rgb(0,200,0);
+
+	position: relative;
+	overflow: hidden;
+}
+
+.red > span {
+	background-color: #d43f3a;
+}
+
+.orange > span {
+	background-color: #eea236;
+}
+
+.yellow > span {
+	background-color: #f0f0a3;
+}
+
+.green > span {
+	background-color: #4cae4c;
+}
+
+.blue > span {
+	background-color: #357ebd;
+}
+
+.black > span {
+	background-color: gray;
+}
