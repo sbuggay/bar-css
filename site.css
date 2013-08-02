@@ -1,0 +1,13 @@
+
+body { font-family: "futura"; }
+
+.container {
+	width: 800px;
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center {
+	text-align: center;
+}
