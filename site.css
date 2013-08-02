@@ -1,5 +1,6 @@
 
-body { font-family: "futura"; }
+body { font-family: "Helvetica Neue"; }
+a { text-decoration: none;}
 
 .container {
 	width: 800px;
