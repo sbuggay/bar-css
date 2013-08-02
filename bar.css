@@ -1,13 +1,15 @@
 .bar { 
 	height: 20px;  /* Can be anything */
 	position: relative;
-	background: #606060;
+	/*background: #606060;*/
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	padding: 3px;
+	padding: 0px;
 	margin: 3px;
-
 }
 
 .bar > span {
@@ -16,7 +18,7 @@
 	overflow: hidden;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 3px;
 	background-color: rgb(0,200,0);
 
 	position: relative;
@@ -43,6 +45,6 @@
 	background-color: #357ebd;
 }
 
-.white > span {
-	background-color: white;
+.black > span {
+	background-color: gray;
 }
