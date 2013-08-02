@@ -13,3 +13,9 @@ use bars
 <span style="width: 50%;"></span>
 </div>
 ```
+with color!
+```html
+<div class="bar green">
+<span style="width: 50%;"></span>
+</div>
+```
