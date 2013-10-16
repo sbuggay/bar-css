@@ -1,8 +1,8 @@
 bar-css :1234: 
 =======
 
-simple progress bars
-[live demo](sbuggay.github.io/bar-css)
+simple progress bars  
+[live demo](http://www.sbuggay.github.io/bar-css)
 
 link css
 ```html
